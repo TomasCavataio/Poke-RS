@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: linear-gradient(#00000080, #00000080),
+    url("../img/background.jpg");
+  background-blend-mode: hard-light, luminosity;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  min-height: 100vh;
+  font-family: cursive;
+}
+
+.show-pokemon {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 10em;
+}
+
+.pokeball {
+  max-width: 7em;
+  cursor: pointer;
+}
+
+.pokeball :focus {
+  outline: none;
+}
+
+.open-pokeball {
+  display: none;
+  background-color: transparent;
+  max-width: 3em;
+}
+
+.main {
+  padding: 2em;
+  font-size: 0.6em;
+  color: black;
+  text-align: center;
+}
+
+.name {
+  font-size: 4em;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+h1 {
+  font-size: 6em;
+  color: #fff;
+}
+
+h3 {
+  font-size: 3em;
+  color: #fff;
+}
+
+.pokemon-image {
+  min-width: 140px;
+}

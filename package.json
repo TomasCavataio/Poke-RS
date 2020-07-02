@@ -1,0 +1,23 @@
+{
+    "name": "pokemon",
+    "version": "1.0.0",
+    "description": "Pokemon PWA",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "live-server ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/guitarde/pokemon-pwa.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/guitarde/pokemon-pwa/issues"
+    },
+    "homepage": "https://github.com/guitarde/pokemon-pwa#readme",
+    "devDependencies": {
+        "live-server": "^1.2.1"
+    }
+}
