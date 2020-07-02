@@ -4,21 +4,24 @@ body {
   justify-content: center;
   align-items: center;
   background-size: cover;
-  background-image: linear-gradient(#00000080, #00000080),
-    url("../img/background.jpg");
+  background-image: linear-gradient(#00000080, #00000080), url("../img/background.jpg");
   background-blend-mode: hard-light, luminosity;
   background-repeat: no-repeat;
   overflow: hidden;
   min-height: 100vh;
   font-family: cursive;
+  background-position: center;
 }
 
 .show-pokemon {
   display: flex;
   text-align: center;
   align-items: center;
+  max-width: 40em;
   justify-content: center;
   height: 10em;
+  background-color: #00000094;
+  border-radius: 10px;
 }
 
 .pokeball {
@@ -47,16 +50,22 @@ body {
   font-size: 4em;
   text-transform: capitalize;
   color: #fff;
+  font-family: "MuseoModerno", cursive;
+  text-shadow: 2px 2px indigo;
 }
 
 h1 {
   font-size: 6em;
   color: #fff;
+  font-family: "MuseoModerno", cursive;
+  text-shadow: 2px 2px indigo;
 }
 
 h3 {
   font-size: 3em;
   color: #fff;
+  font-family: "MuseoModerno", cursive;
+  text-shadow: 2px 2px indigo;
 }
 
 .pokemon-image {

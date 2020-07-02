@@ -21,6 +21,7 @@ async function getData() {
     .then((data) => {
       pokemonImage.src = data.sprites.front_default;
       name.innerText = data.name;
+      types.innerText = "";
       for (let t of data.types) {
         types.innerText += " | " + t.type.name;
       }
