@@ -88,7 +88,6 @@ function addSeparator() {
  */
 function hidePreviousPokemon() {
   pokemonImage.style.display = "none";
-  name.style.display = "none";
   openPokeball.style.display = "block";
 }
 
@@ -97,7 +96,6 @@ function hidePreviousPokemon() {
  */
 function showNewPokemon() {
   pokemonImage.style.display = "block";
-  name.style.display = "block";
   openPokeball.style.display = "none";
 }
 
